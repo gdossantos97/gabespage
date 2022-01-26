@@ -1,0 +1,94 @@
+
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+}
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  width: 80px;
+  height: 80px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+.footer {
+background-color: #121212;
+}
+.footer {
+  padding: 1rem 2rem 3rem;
+}
+.footer-heading {
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+}
+.socials{
+
+  padding-top: 1.25rem;
+
+}
+.footer a {
+  color: white;
+  text-decoration: none!important;
+  display: inline;
+  transition: all 0.5s ease 0s;
+}
+.mt-3 {
+  letter-spacing: .5rem;
+  margin: 10px;
+
+}
+footer a:hover {
+  color: #5291c9;
+  transition: all 0.5s ease 0s;
+}
+.footer-links p a {
+  transition: all .5s ease;
+}
+p.footer-links a:hover {
+  color: #5291c9!important;
+  transition: all .5s ease;
+}
+.footer-projects img {
+  max-height: 6rem;
+}
+.footer-projects p {
+  font-size: .8rem;
+  color: #999999;
+}
+.footer-projects p:hover {
+  color: #5291c9;
+}
+.mt-2{
+  padding-bottom: 4rem;
+}
